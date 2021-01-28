@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaunchAsDate", "LaunchAsDate\LaunchAsDate.csproj", "{0AAB1199-B9C0-42A3-A1F2-FDDD5211C2AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaunchFromDateSelector", "LaunchFromDateSelector\LaunchFromDateSelector.csproj", "{0AAB1199-B9C0-42A3-A1F2-FDDD5211C2AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0836BAB-8581-48DD-B334-774516AA7D8D}
 	EndGlobalSection
 EndGlobal

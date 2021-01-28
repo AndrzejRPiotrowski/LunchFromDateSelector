@@ -106,7 +106,7 @@
     <Compile Include="Constants.cs" />
     <Compile Include="ErrorLog.cs" />
     <Compile Include="FocusApplication.cs" />
-    <Compile Include="LauncherAsDate.cs" />
+    <Compile Include="LaunchFromDateSelector.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,8 +169,6 @@
     <None Include="app.manifest">
       <SubType>Designer</SubType>
     </None>
-    <None Include="LaunchFromDateSelector_1_TemporaryKey.pfx" />
-    <None Include="LaunchFromDateSelector_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
