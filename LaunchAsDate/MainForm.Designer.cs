@@ -48,6 +48,13 @@
             this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.checkBox = new System.Windows.Forms.CheckBox();
+            this.advancedDataGridViewSearchToolBar1 = new Zuby.ADGV.AdvancedDataGridViewSearchToolBar();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
@@ -214,12 +221,73 @@
             this.checkBox.Name = "checkBox";
             this.checkBox.UseVisualStyleBackColor = true;
             // 
+            // advancedDataGridViewSearchToolBar1
+            // 
+            this.advancedDataGridViewSearchToolBar1.AllowMerge = false;
+            resources.ApplyResources(this.advancedDataGridViewSearchToolBar1, "advancedDataGridViewSearchToolBar1");
+            this.advancedDataGridViewSearchToolBar1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.advancedDataGridViewSearchToolBar1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.advancedDataGridViewSearchToolBar1.Name = "advancedDataGridViewSearchToolBar1";
+            this.advancedDataGridViewSearchToolBar1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            resources.GetString("comboBox3.Items"),
+            resources.GetString("comboBox3.Items1"),
+            resources.GetString("comboBox3.Items2"),
+            resources.GetString("comboBox3.Items3"),
+            resources.GetString("comboBox3.Items4")});
+            resources.ApplyResources(this.comboBox3, "comboBox3");
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
+            // 
+            // dateTimePicker3
+            // 
+            resources.ApplyResources(this.dateTimePicker3, "dateTimePicker3");
+            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.ValueChanged += new System.EventHandler(this.dateTimePicker3_ValueChanged);
+            // 
+            // dateTimePicker2
+            // 
+            resources.ApplyResources(this.dateTimePicker2, "dateTimePicker2");
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
+            // 
+            // label7
+            // 
+            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.label7, "label7");
+            this.label7.Name = "label7";
+            // 
+            // label8
+            // 
+            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.Name = "label8";
+            // 
+            // label9
+            // 
+            resources.ApplyResources(this.label9, "label9");
+            this.label9.Name = "label9";
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button4;
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.dateTimePicker3);
+            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.advancedDataGridViewSearchToolBar1);
             this.Controls.Add(this.numericUpDown2);
             this.Controls.Add(this.checkBox);
             this.Controls.Add(this.textBox4);
@@ -283,5 +351,12 @@
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
         private System.Windows.Forms.CheckBox checkBox;
+        private Zuby.ADGV.AdvancedDataGridViewSearchToolBar advancedDataGridViewSearchToolBar1;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
     }
 }
