@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ButtonAbort" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="ButtonAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>Clos&amp;e</value>
+  </data>
+  <data name="ButtonDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ButtonIgnore" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="ButtonNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ButtonNoAll" xml:space="preserve">
+    <value>No To All</value>
+  </data>
+  <data name="ButtonOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ButtonRetry" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="ButtonSkip" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="ButtonYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ButtonYesAll" xml:space="preserve">
+    <value>Yes To All</value>
+  </data>
+  <data name="CaptionAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="CaptionCapsLock" xml:space="preserve">
+    <value>CAPS</value>
+  </data>
+  <data name="CaptionError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="CaptionHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="CaptionInformation" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="CaptionInsert" xml:space="preserve">
+    <value>INS</value>
+  </data>
+  <data name="CaptionNumLock" xml:space="preserve">
+    <value>NUM</value>
+  </data>
+  <data name="CaptionOverWrite" xml:space="preserve">
+    <value>OVR</value>
+  </data>
+  <data name="CaptionScrollLock" xml:space="preserve">
+    <value>SCRL</value>
+  </data>
+  <data name="CaptionSecond" xml:space="preserve">
+    <value>second</value>
+  </data>
+  <data name="CaptionSeconds" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="CaptionWarning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Changes the system date, launches the executable and sets the system date back.</value>
+  </data>
+  <data name="ExceptionMessageA" xml:space="preserve">
+    <value>Multiple entry of arguments for the target application.</value>
+  </data>
+  <data name="ExceptionMessageD" xml:space="preserve">
+    <value>Multiple absolute date entry.</value>
+  </data>
+  <data name="ExceptionMessageF" xml:space="preserve">
+    <value>Wrong date span format.</value>
+  </data>
+  <data name="ExceptionMessageI" xml:space="preserve">
+    <value>Multiple target application file path entry.</value>
+  </data>
+  <data name="ExceptionMessageJ" xml:space="preserve">
+    <value>The date and the interval must be provided.</value>
+  </data>
+  <data name="ExceptionMessageK" xml:space="preserve">
+    <value>The date must be provided.</value>
+  </data>
+  <data name="ExceptionMessageL" xml:space="preserve">
+    <value>The interval must be provided.</value>
+  </data>
+  <data name="ExceptionMessageM" xml:space="preserve">
+    <value>Arguments mismatch.</value>
+  </data>
+  <data name="ExceptionMessageN" xml:space="preserve">
+    <value>The interval must be a positive integer less than or equal to {0}.</value>
+  </data>
+  <data name="ExceptionMessageQ" xml:space="preserve">
+    <value>Multiple date span entry.</value>
+  </data>
+  <data name="ExceptionMessageS" xml:space="preserve">
+    <value>Multiple interval entry.</value>
+  </data>
+  <data name="ExceptionMessageT" xml:space="preserve">
+    <value>The date cannot be set both absolutely and relatively.</value>
+  </data>
+  <data name="ExceptionMessageU" xml:space="preserve">
+    <value>An unknown switch was provided.</value>
+  </data>
+  <data name="ExceptionMessageW" xml:space="preserve">
+    <value>Multiple working folder path entry.</value>
+  </data>
+  <data name="ExceptionMessageZ" xml:space="preserve">
+    <value>The date span cannot be set to zero.</value>
+  </data>
+  <data name="HelpLine1" xml:space="preserve">
+    <value>/i\tPath to the target application.</value>
+  </data>
+  <data name="HelpLine10" xml:space="preserve">
+    <value>\ttion (optional).</value>
+  </data>
+  <data name="HelpLine11" xml:space="preserve">
+    <value>/w\tWorking folder of the target application</value>
+  </data>
+  <data name="HelpLine12" xml:space="preserve">
+    <value>\t(optional).</value>
+  </data>
+  <data name="HelpLine13" xml:space="preserve">
+    <value>/o\tAllow only one instance (optional).</value>
+  </data>
+  <data name="HelpLine14" xml:space="preserve">
+    <value>/s\tAfter this interval in seconds the current</value>
+  </data>
+  <data name="HelpLine15" xml:space="preserve">
+    <value>\tsystem date and time will be set.</value>
+  </data>
+  <data name="HelpLine16" xml:space="preserve">
+    <value>/t\tTesting mode.</value>
+  </data>
+  <data name="HelpLine17" xml:space="preserve">
+    <value>/T\tArgument parsing test.</value>
+  </data>
+  <data name="HelpLine18" xml:space="preserve">
+    <value>/h or /?\tWill show this help.</value>
+  </data>
+  <data name="HelpLine2" xml:space="preserve">
+    <value>/d\tAbsolute date to be set as the system da-</value>
+  </data>
+  <data name="HelpLine3" xml:space="preserve">
+    <value>\tte for launch of the application in format</value>
+  </data>
+  <data name="HelpLine4" xml:space="preserve">
+    <value>\tYYYY-MM-DD (e.g. 2019-01-01).</value>
+  </data>
+  <data name="HelpLine5" xml:space="preserve">
+    <value>/r\tRelative date span  (e.g. -2year, -6month,</value>
+  </data>
+  <data name="HelpLine6" xml:space="preserve">
+    <value>\t-1day, +2day).</value>
+  </data>
+  <data name="HelpLine7" xml:space="preserve">
+    <value>\t/d or /r must be set. If /d is set, /r cannot</value>
+  </data>
+  <data name="HelpLine8" xml:space="preserve">
+    <value>\tbe set and if /r is set, /d cannot be set.</value>
+  </data>
+  <data name="HelpLine9" xml:space="preserve">
+    <value>/a\tArguments passed to the target applica-</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LabelVersion" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="LabelWebsite" xml:space="preserve">
+    <value>Website:</value>
+  </data>
+  <data name="MenuItemCopy" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="MenuItemCopyAbout" xml:space="preserve">
+    <value>Copy &amp;About Text</value>
+  </data>
+  <data name="MenuItemCopyLink" xml:space="preserve">
+    <value>&amp;Copy Link</value>
+  </data>
+  <data name="MessageApplicationCannotRun" xml:space="preserve">
+    <value>This applicacion cannot run on your system.</value>
+  </data>
+  <data name="MessageApplicationError" xml:space="preserve">
+    <value>An unexpected error has occured. Application will close now.</value>
+  </data>
+  <data name="MessageApplicationNotFound" xml:space="preserve">
+    <value>Application to launch was not found.</value>
+  </data>
+  <data name="MessageApplicationNotSet" xml:space="preserve">
+    <value>Application to launch must be set.</value>
+  </data>
+  <data name="MessageLaunchWarning1" xml:space="preserve">
+    <value>The system time will be set to the required value for the certain number of seconds. This can cause unexpected behavior of your system or some applications. E.g. the trial period for some applications may expire.</value>
+  </data>
+  <data name="MessageLaunchWarning2" xml:space="preserve">
+    <value>Do you really want to continue?</value>
+  </data>
+  <data name="MessageLaunchWarning3" xml:space="preserve">
+    <value>If so, this message will not be displayed again.</value>
+  </data>
+  <data name="MessageRunAsAdministrator" xml:space="preserve">
+    <value>You must run this program as Administrator to perform this action.</value>
+  </data>
+  <data name="MessageShortcutAlreadyExists" xml:space="preserve">
+    <value>The shortcut of this name already exists. Do you want to overwrite it?</value>
+  </data>
+  <data name="MessageShortcutNameNotSet" xml:space="preserve">
+    <value>Application shortcut name must be set.</value>
+  </data>
+  <data name="OK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\OK.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShieldError" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ShieldError.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShieldOK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ShieldOK.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShieldQuestion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ShieldQuestion.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShieldQuestionRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ShieldQuestionRed.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShieldWarning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ShieldWarning.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToolTipVisit" xml:space="preserve">
+    <value>Visit website</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>https://fortsoft.eu/</value>
+  </data>
+</root>
