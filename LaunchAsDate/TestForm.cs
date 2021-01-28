@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace LaunchAsDate {
+namespace LaunchFromDateSelector {
     public partial class TestForm : Form {
         private int textBoxClicks;
         private Timer textBoxClicksTimer, timer;

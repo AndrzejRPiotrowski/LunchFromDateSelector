@@ -5,7 +5,7 @@ using System.IO;
 using System.Text;
 using System.Windows.Forms;
 
-namespace LaunchAsDate {
+namespace LaunchFromDateSelector {
     public static class ErrorLog {
         public static void WriteLine(Exception exception) {
             try {

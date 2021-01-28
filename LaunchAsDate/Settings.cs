@@ -1,7 +1,7 @@
 ﻿using FSTools;
 using System;
 
-namespace LaunchAsDate {
+namespace LaunchFromDateSelector {
     public class Settings {
         private PersistentSettings persistentSettings;
 

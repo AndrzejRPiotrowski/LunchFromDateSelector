@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace LaunchAsDate {
+namespace LaunchFromDateSelector {
     public class LauncherAsDate {
         private string timeZoneInformationKey, applicationFilePath, arguments, workingFolderPath, mutexId;
         private bool oneInstance, disableTimeCorrection, forceTimeCorrection;

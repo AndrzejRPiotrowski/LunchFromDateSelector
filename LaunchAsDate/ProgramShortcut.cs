@@ -1,6 +1,6 @@
 ﻿using IWshRuntimeLibrary;
 
-namespace LaunchAsDate {
+namespace LaunchFromDateSelector {
     public class ProgramShortcut {
         private string shortcutFilePath, targetPath, workingFolderPath, arguments, iconLocation;
         private WshShell wshShell;

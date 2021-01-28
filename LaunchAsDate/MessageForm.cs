@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
 
-namespace LaunchAsDate {
+namespace LaunchFromDateSelector {
     public partial class MessageForm : Form {
         private const int SC_CLOSE = 0xF060;
         public const int defaultWidth = 420;

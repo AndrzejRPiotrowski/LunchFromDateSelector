@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Text;
 using System.Windows.Forms;
 
-namespace LaunchAsDate {
+namespace LaunchFromDateSelector {
     public static class Program {
         /// <summary>
         /// The main entry point for the application.

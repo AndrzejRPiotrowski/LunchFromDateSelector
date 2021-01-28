@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
 
-namespace LaunchAsDate {
+namespace LaunchFromDateSelector {
     public partial class MainForm : Form {
         private int textBoxClicks;
         private Timer textBoxClicksTimer;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace LaunchAsDate {
+namespace LaunchFromDateSelector {
     public class ArgumentParser {
         private List<string> arguments;
         private string argumentString, applicationFilePath, applicationArguments, workingFolderPath;

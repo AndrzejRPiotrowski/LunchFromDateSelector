@@ -1,4 +1,4 @@
-﻿namespace LaunchAsDate {
+﻿namespace LaunchFromDateSelector {
     public static class Constants {
         public const int IntervalDefault = 5;
         public const int IntervalMinimum = 1;

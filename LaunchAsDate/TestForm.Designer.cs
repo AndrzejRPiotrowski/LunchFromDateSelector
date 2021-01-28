@@ -1,4 +1,4 @@
-﻿namespace LaunchAsDate {
+﻿namespace LaunchFromDateSelector {
     partial class TestForm {
         /// <summary>
         /// Required designer variable.

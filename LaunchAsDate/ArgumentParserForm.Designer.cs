@@ -1,4 +1,4 @@
-﻿namespace LaunchAsDate {
+﻿namespace LaunchFromDateSelector {
     partial class ArgumentParserForm {
         /// <summary>
         /// Required designer variable.

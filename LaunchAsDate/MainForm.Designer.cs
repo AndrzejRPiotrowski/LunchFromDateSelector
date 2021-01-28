@@ -1,4 +1,4 @@
-﻿namespace LaunchAsDate {
+﻿namespace LaunchFromDateSelector {
     partial class MainForm {
         /// <summary>
         /// Required designer variable.
@@ -55,6 +55,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
@@ -229,6 +230,7 @@
             this.advancedDataGridViewSearchToolBar1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.advancedDataGridViewSearchToolBar1.Name = "advancedDataGridViewSearchToolBar1";
             this.advancedDataGridViewSearchToolBar1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            this.helpProvider1.SetShowHelp(this.advancedDataGridViewSearchToolBar1, ((bool)(resources.GetObject("advancedDataGridViewSearchToolBar1.ShowHelp"))));
             // 
             // comboBox3
             // 
@@ -239,7 +241,10 @@
             resources.GetString("comboBox3.Items1"),
             resources.GetString("comboBox3.Items2"),
             resources.GetString("comboBox3.Items3"),
-            resources.GetString("comboBox3.Items4")});
+            resources.GetString("comboBox3.Items4"),
+            resources.GetString("comboBox3.Items5"),
+            resources.GetString("comboBox3.Items6"),
+            resources.GetString("comboBox3.Items7")});
             resources.ApplyResources(this.comboBox3, "comboBox3");
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
@@ -358,5 +363,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.HelpProvider helpProvider1;
     }
 }
