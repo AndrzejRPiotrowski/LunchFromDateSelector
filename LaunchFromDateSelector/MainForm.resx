@@ -613,7 +613,7 @@
     <value>20</value>
   </data>
   <data name="button4.Text" xml:space="preserve">
-    <value>Clos&amp;e App</value>
+    <value>Ch&amp;ek User</value>
   </data>
   <data name="&gt;&gt;button4.Name" xml:space="preserve">
     <value>button4</value>
@@ -804,9 +804,6 @@
   <metadata name="advancedDataGridViewSearchToolBar1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>345, 17</value>
   </metadata>
-  <metadata name="helpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>662, 17</value>
-  </metadata>
   <data name="advancedDataGridViewSearchToolBar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
   </data>
@@ -822,6 +819,9 @@
   <data name="advancedDataGridViewSearchToolBar1.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>0, 27</value>
   </data>
+  <metadata name="helpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>662, 17</value>
+  </metadata>
   <data name="advancedDataGridViewSearchToolBar1.ShowHelp" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1026,9 +1026,6 @@
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="helpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>662, 17</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

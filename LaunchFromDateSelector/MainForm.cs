@@ -7,6 +7,8 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
+using System.Security.AccessControl;
+using System.Security.Principal;
 
 namespace LaunchFromDateSelector {
     public partial class MainForm : Form {
@@ -17,6 +19,7 @@ namespace LaunchFromDateSelector {
         private Settings settings;
         private string workingFolderPathTemp, shortcutNameTemp, administratorRegPath;
         private Form dialog;
+
 
         public MainForm(Settings settings) {
             Text = Program.GetTitle();
@@ -56,6 +59,13 @@ namespace LaunchFromDateSelector {
             textBox4.Text = settings.ShortcutName;
             checkBox.Checked = settings.OneInstance;
         }
+
+       
+        System.Security.Principal.WindowsIdentity id = System.Security.Principal.WindowsIdentity.GetCurrent();
+        
+      
+                    
+   
 
         private void SelectApplication(object sender, EventArgs e) {
             try {
@@ -205,6 +215,38 @@ namespace LaunchFromDateSelector {
             }
         }
 
+        private void AdminRelauncher()
+        {
+            if (!IsRunAsAdmin())
+            {
+                ProcessStartInfo proc = new ProcessStartInfo();
+                proc.UseShellExecute = true;
+                proc.WorkingDirectory = Environment.CurrentDirectory;
+                proc.FileName = Assembly.GetEntryAssembly().CodeBase;
+
+                proc.Verb = "runas";
+
+                try
+                {
+                    Process.Start(proc);
+                 //   Application.Current.Shutdown();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("This program must be run as an administrator! \n\n" + ex.ToString());
+                }
+            }
+        }
+
+        private bool IsRunAsAdmin()
+        {
+            WindowsIdentity id = WindowsIdentity.GetCurrent();
+            WindowsPrincipal principal = new WindowsPrincipal(id);
+            principal.IsInRole(WindowsBuiltInRole.Administrator) ;
+            return principal.IsInRole(WindowsBuiltInRole.Administrator);
+
+        }
+
         private void Launch(object sender, EventArgs e) {
             try {
                 administratorRegPath = Application.CommonAppDataRegistry.Name;
@@ -331,7 +373,8 @@ namespace LaunchFromDateSelector {
         }
 
         private void Close(object sender, EventArgs e) {
-            Close();
+            dialog = new MessageForm(this, IsRunAsAdmin().ToString(), "Are You logged as Admin");
+            dialog.ShowDialog();
         }
 
         private void ShowAbout(object sender, EventArgs e) {
