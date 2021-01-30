@@ -14,7 +14,7 @@ namespace LaunchFromDateSelector
         public StartScreen()
         {
             InitializeComponent();
-            this.labelCopyright.Text = "Copyright © 2021-" + DateTime.Now.Year.ToString();
+            this.labelCopyright.Text = "Copyright AP © 2021-" + DateTime.Now.Year.ToString();
         }
 
         #region Overrides
